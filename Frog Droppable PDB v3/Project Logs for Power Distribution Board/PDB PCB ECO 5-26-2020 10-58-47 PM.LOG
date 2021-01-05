@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=NetJ6_4 Pin=P1-1
+Removed Pin From Net: NetName=NetJ6_3 Pin=P2-1
+Removed Pin From Net: NetName=NetJ6_2 Pin=P3-1
+Removed Pin From Net: NetName=NetJ6_1 Pin=P4-1
+Added Pin To Net: NetName=NetJ6_3 Pin=P1-1
+Added Pin To Net: NetName=NetJ6_4 Pin=P2-1
+Added Pin To Net: NetName=NetJ6_1 Pin=P3-1
+Added Pin To Net: NetName=NetJ6_2 Pin=P4-1
+Added Room: Name=PDB

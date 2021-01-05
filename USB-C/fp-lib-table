@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name USB-C-Buczek)(type KiCad)(uri ${KIPRJMOD}/USB-C-Buczek.pretty)(options "")(descr ""))
+)

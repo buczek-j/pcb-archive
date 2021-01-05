@@ -1,0 +1,11 @@
+Net Status Report
+Filename     : C:\Users\bucze\Downloads\pcb-design\Hot-Swap_Solutions\Hot-Swap_Solutions.PcbDoc
+Date         : 8/27/2020
+Time         : 9:27:19 PM
+Time Elapsed : 00:00:00
+
+Nets, Layer, Length
+    NetC1_1, Signal Layers Only, 474.111mils
+    NetC1_2, Signal Layers Only, 1357.963mils
+    NetC2_1, Signal Layers Only, 492.451mils
+count : 3

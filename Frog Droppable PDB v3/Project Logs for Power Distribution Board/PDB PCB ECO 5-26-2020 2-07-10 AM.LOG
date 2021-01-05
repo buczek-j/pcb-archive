@@ -1,0 +1,11 @@
+Change Physical Footprint: Designator=J1 Old Footprint=XT30PB-M New Footprint=XT30PB-M
+Change Physical Footprint: Designator=J2 Old Footprint=XT30PB-M New Footprint=XT30PB-M
+Change Physical Footprint: Designator=J3 Old Footprint=XT30PB-M New Footprint=XT30PB-M
+Change Physical Footprint: Designator=J4 Old Footprint=XT30PB-M New Footprint=XT30PB-M
+Change Physical Footprint: Designator=J5 Old Footprint=xt60-m New Footprint=xt60-m
+Change Physical Footprint: Designator=J6 Old Footprint=motor to pixhawk headers New Footprint=motor to pixhawk headers
+Change Physical Footprint: Designator=J7 Old Footprint=power header New Footprint=power header
+Change Physical Footprint: Designator=P1 Old Footprint=SMTC-TSW-103-08-X-S-RA New Footprint=SMTC-TSW-103-08-X-S-RA
+Change Physical Footprint: Designator=P2 Old Footprint=SMTC-TSW-103-08-X-S-RA New Footprint=SMTC-TSW-103-08-X-S-RA
+Change Physical Footprint: Designator=P3 Old Footprint=SMTC-TSW-103-08-X-S-RA New Footprint=SMTC-TSW-103-08-X-S-RA
+Change Physical Footprint: Designator=P4 Old Footprint=SMTC-TSW-103-08-X-S-RA New Footprint=SMTC-TSW-103-08-X-S-RA

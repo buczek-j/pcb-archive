@@ -1,0 +1,16 @@
+Move Component(s) Origin to Grid
+Filename     : P:\Ian User\Desktop\pcb-design\Frog Droppable PDB v3\PDB.PcbDoc
+Date         : 5/25/2020
+Time         : 9:33:08 PM
+Time Elapsed : 00:00:00
+
+
+    Small Component P4-TSW-103-08-T-S-RA (7667.323mil,1092.52mil) on Top Layer - Component origin is already ON grid. - Component pads are OFF grid. No action taken.
+    Small Component P3-TSW-103-08-T-S-RA (2400mil,5462.598mil) on Top Layer - Component pads are OFF grid. No action taken.
+    Small Component P2-TSW-103-08-T-S-RA (2610.081mil,952.911mil) on Top Layer - Component pads are OFF grid. No action taken.
+    Small Component P1-TSW-103-08-T-S-RA (7537.795mil,5462.598mil) on Top Layer - Component pads are OFF grid. No action taken.
+    Small Component J4-XT30PB-M (7411.417mil,482.284mil) on Top Layer - Component origin is already ON grid. - Component pads are OFF grid. No action taken.
+    Small Component J3-XT30PB-M (1947.42mil,5579.31mil) on Top Layer - Component pads are OFF grid. No action taken.
+    Small Component J2-XT30PB-M (2717.934mil,480.884mil) on Top Layer - Component pads are OFF grid. No action taken.
+    Small Component J1-XT30PB-M (8200.218mil,5579.31mil) on Top Layer - Component pads are OFF grid. No action taken.
+count : 8

@@ -1,0 +1,5 @@
+Added Component: Designator=J7(power header)
+Added Pin To Net: NetName=GND Pin=J7-0
+Added Pin To Net: NetName=VCC Pin=J7-1
+Added Member To Class: ClassName=PDB Member=Component J7 power header
+Added Room: Name=PDB

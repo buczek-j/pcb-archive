@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name USC-C-Buczek)(type Legacy)(uri ${KIPRJMOD}/USC-C-Buczek.lib)(options "")(descr ""))
+)

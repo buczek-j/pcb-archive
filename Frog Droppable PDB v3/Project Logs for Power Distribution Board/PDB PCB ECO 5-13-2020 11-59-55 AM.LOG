@@ -1,0 +1,11 @@
+Change Component Footprint: Designator=J1 Old Footprint=XT30PW New Footprint=XT30PB-M
+Change Component Footprint: Designator=J2 Old Footprint=XT30PW New Footprint=XT30PB-M
+Change Component Comment : Designator=J1 Old Comment=XT30PW New Comment=XT30PB-M
+Change Component Comment : Designator=J2 Old Comment=XT30PW New Comment=XT30PB-M
+Change component parameters: Designator = "J1" ("J1"); Footprint = "XT30PW"; UniqueID = "\OIWYTAGN" ("\OIWYTAGN")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Supplier"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://shop.smc-powers.com/XT30UPB-M.html?manufacturer_id=13&page=4"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J2" ("J2"); Footprint = "XT30PW"; UniqueID = "\WSJNGSVL" ("\WSJNGSVL")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Supplier"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://shop.smc-powers.com/XT30UPB-M.html?manufacturer_id=13&page=4"; VariantName = "[No Variations]"
+Added Room: Name=PDB

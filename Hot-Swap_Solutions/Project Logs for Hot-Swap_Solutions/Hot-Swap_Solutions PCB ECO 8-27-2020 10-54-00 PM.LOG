@@ -1,0 +1,4 @@
+Change Component Designator: OldDesignator=UAV NewDesignator=C3
+Change Component Designator: OldDesignator=Vbat NewDesignator=C2
+Change Component Designator: OldDesignator=Vswap NewDesignator=C1
+Change Net Name : Old Net Name=NetC1_2 New Net Name=GND
