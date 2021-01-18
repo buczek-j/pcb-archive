@@ -1,0 +1,423 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 7400 7500 0    50   ~ 0
+Multidrop Bay Servo Routing
+Text Notes 8150 7650 0    50   ~ 0
+1/17/20
+Text Notes 10550 7650 0    50   ~ 0
+1\n
+$Comp
+L MCU_Module:Arduino_Nano_v2.x A1
+U 1 1 6003B214
+P 1500 1950
+F 0 "A1" H 1500 861 50  0000 C CNN
+F 1 "Arduino_Nano_v2.x" H 1500 770 50  0000 C CNN
+F 2 "Module:Arduino_Nano" H 1500 1950 50  0001 C CIN
+F 3 "https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf" H 1500 1950 50  0001 C CNN
+	1    1500 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J1
+U 1 1 6003DD4C
+P 8500 1050
+F 0 "J1" H 8528 1076 50  0000 L CNN
+F 1 "Servo_Header" H 8528 985 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8500 1050 50  0001 C CNN
+F 3 "~" H 8500 1050 50  0001 C CNN
+	1    8500 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0101
+U 1 1 6003F534
+P 7900 1050
+F 0 "#PWR0101" H 7900 900 50  0001 C CNN
+F 1 "+5V" H 7915 1223 50  0000 C CNN
+F 2 "" H 7900 1050 50  0001 C CNN
+F 3 "" H 7900 1050 50  0001 C CNN
+	1    7900 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 6003FD32
+P 8300 1150
+F 0 "#PWR0102" H 8300 900 50  0001 C CNN
+F 1 "GND" H 8305 977 50  0000 C CNN
+F 2 "" H 8300 1150 50  0001 C CNN
+F 3 "" H 8300 1150 50  0001 C CNN
+	1    8300 1150
+	1    0    0    -1  
+$EndComp
+Text GLabel 8300 950  0    50   Input ~ 0
+Servo_1
+Wire Wire Line
+	7900 1050 8300 1050
+$Comp
+L power:+5V #PWR0103
+U 1 1 600529FD
+P 7900 1600
+F 0 "#PWR0103" H 7900 1450 50  0001 C CNN
+F 1 "+5V" H 7915 1773 50  0000 C CNN
+F 2 "" H 7900 1600 50  0001 C CNN
+F 3 "" H 7900 1600 50  0001 C CNN
+	1    7900 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 60052A03
+P 8300 1700
+F 0 "#PWR0104" H 8300 1450 50  0001 C CNN
+F 1 "GND" H 8305 1527 50  0000 C CNN
+F 2 "" H 8300 1700 50  0001 C CNN
+F 3 "" H 8300 1700 50  0001 C CNN
+	1    8300 1700
+	1    0    0    -1  
+$EndComp
+Text GLabel 8300 1500 0    50   Input ~ 0
+Servo_2
+Wire Wire Line
+	7900 1600 8300 1600
+$Comp
+L power:+5V #PWR0105
+U 1 1 60053743
+P 7900 2100
+F 0 "#PWR0105" H 7900 1950 50  0001 C CNN
+F 1 "+5V" H 7915 2273 50  0000 C CNN
+F 2 "" H 7900 2100 50  0001 C CNN
+F 3 "" H 7900 2100 50  0001 C CNN
+	1    7900 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 60053749
+P 8300 2200
+F 0 "#PWR0106" H 8300 1950 50  0001 C CNN
+F 1 "GND" H 8305 2027 50  0000 C CNN
+F 2 "" H 8300 2200 50  0001 C CNN
+F 3 "" H 8300 2200 50  0001 C CNN
+	1    8300 2200
+	1    0    0    -1  
+$EndComp
+Text GLabel 8300 2000 0    50   Input ~ 0
+Servo_3
+Wire Wire Line
+	7900 2100 8300 2100
+$Comp
+L power:GND #PWR0107
+U 1 1 600543C7
+P 8300 2700
+F 0 "#PWR0107" H 8300 2450 50  0001 C CNN
+F 1 "GND" H 8305 2527 50  0000 C CNN
+F 2 "" H 8300 2700 50  0001 C CNN
+F 3 "" H 8300 2700 50  0001 C CNN
+	1    8300 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 2600 8300 2600
+$Comp
+L power:+5V #PWR0108
+U 1 1 6005B9BC
+P 9250 1050
+F 0 "#PWR0108" H 9250 900 50  0001 C CNN
+F 1 "+5V" H 9265 1223 50  0000 C CNN
+F 2 "" H 9250 1050 50  0001 C CNN
+F 3 "" H 9250 1050 50  0001 C CNN
+	1    9250 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 6005B9C2
+P 9650 1150
+F 0 "#PWR0109" H 9650 900 50  0001 C CNN
+F 1 "GND" H 9655 977 50  0000 C CNN
+F 2 "" H 9650 1150 50  0001 C CNN
+F 3 "" H 9650 1150 50  0001 C CNN
+	1    9650 1150
+	1    0    0    -1  
+$EndComp
+Text GLabel 9650 950  0    50   Input ~ 0
+Servo_1
+Wire Wire Line
+	9250 1050 9650 1050
+$Comp
+L power:+5V #PWR0110
+U 1 1 6005B9D0
+P 9250 1600
+F 0 "#PWR0110" H 9250 1450 50  0001 C CNN
+F 1 "+5V" H 9265 1773 50  0000 C CNN
+F 2 "" H 9250 1600 50  0001 C CNN
+F 3 "" H 9250 1600 50  0001 C CNN
+	1    9250 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 6005B9D6
+P 9650 1700
+F 0 "#PWR0111" H 9650 1450 50  0001 C CNN
+F 1 "GND" H 9655 1527 50  0000 C CNN
+F 2 "" H 9650 1700 50  0001 C CNN
+F 3 "" H 9650 1700 50  0001 C CNN
+	1    9650 1700
+	1    0    0    -1  
+$EndComp
+Text GLabel 9650 1500 0    50   Input ~ 0
+Servo_2
+Wire Wire Line
+	9250 1600 9650 1600
+$Comp
+L power:+5V #PWR0112
+U 1 1 6005B9E4
+P 9250 2100
+F 0 "#PWR0112" H 9250 1950 50  0001 C CNN
+F 1 "+5V" H 9265 2273 50  0000 C CNN
+F 2 "" H 9250 2100 50  0001 C CNN
+F 3 "" H 9250 2100 50  0001 C CNN
+	1    9250 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 6005B9EA
+P 9650 2200
+F 0 "#PWR0113" H 9650 1950 50  0001 C CNN
+F 1 "GND" H 9655 2027 50  0000 C CNN
+F 2 "" H 9650 2200 50  0001 C CNN
+F 3 "" H 9650 2200 50  0001 C CNN
+	1    9650 2200
+	1    0    0    -1  
+$EndComp
+Text GLabel 9650 2000 0    50   Input ~ 0
+Servo_3
+Wire Wire Line
+	9250 2100 9650 2100
+$Comp
+L power:+5V #PWR0114
+U 1 1 6005B9F8
+P 9250 2600
+F 0 "#PWR0114" H 9250 2450 50  0001 C CNN
+F 1 "+5V" H 9265 2773 50  0000 C CNN
+F 2 "" H 9250 2600 50  0001 C CNN
+F 3 "" H 9250 2600 50  0001 C CNN
+	1    9250 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 6005B9FE
+P 9650 2700
+F 0 "#PWR0115" H 9650 2450 50  0001 C CNN
+F 1 "GND" H 9655 2527 50  0000 C CNN
+F 2 "" H 9650 2700 50  0001 C CNN
+F 3 "" H 9650 2700 50  0001 C CNN
+	1    9650 2700
+	1    0    0    -1  
+$EndComp
+Text GLabel 9650 2500 0    50   Input ~ 0
+Servo_4
+Wire Wire Line
+	9250 2600 9650 2600
+$Comp
+L power:+5V #PWR0116
+U 1 1 6007743D
+P 1700 950
+F 0 "#PWR0116" H 1700 800 50  0001 C CNN
+F 1 "+5V" H 1715 1123 50  0000 C CNN
+F 2 "" H 1700 950 50  0001 C CNN
+F 3 "" H 1700 950 50  0001 C CNN
+	1    1700 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 6007DB00
+P 1600 3050
+F 0 "#PWR0117" H 1600 2800 50  0001 C CNN
+F 1 "GND" H 1605 2877 50  0000 C CNN
+F 2 "" H 1600 3050 50  0001 C CNN
+F 3 "" H 1600 3050 50  0001 C CNN
+	1    1600 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 3050 1600 2950
+Wire Wire Line
+	1600 3050 1500 3050
+Wire Wire Line
+	1500 3050 1500 2950
+Connection ~ 1600 3050
+Text GLabel 1000 1850 0    50   Input ~ 0
+Servo_1
+Text GLabel 1000 1950 0    50   Input ~ 0
+Servo_2
+Text GLabel 1000 2350 0    50   Input ~ 0
+Servo_3
+Text GLabel 1000 2450 0    50   Input ~ 0
+Servo_4
+Text GLabel 2000 2350 2    50   Input ~ 0
+SDA
+Text GLabel 2000 2450 2    50   Input ~ 0
+SCL
+$Comp
+L Connector:Conn_01x06_Female J5
+U 1 1 6008FACD
+P 8550 3800
+F 0 "J5" H 8578 3776 50  0000 L CNN
+F 1 "Input_header" H 8578 3685 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 8550 3800 50  0001 C CNN
+F 3 "~" H 8550 3800 50  0001 C CNN
+	1    8550 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 6009407A
+P 8200 4150
+F 0 "#PWR0118" H 8200 3900 50  0001 C CNN
+F 1 "GND" H 8205 3977 50  0000 C CNN
+F 2 "" H 8200 4150 50  0001 C CNN
+F 3 "" H 8200 4150 50  0001 C CNN
+	1    8200 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 4150 8200 4100
+Wire Wire Line
+	8200 4000 8350 4000
+Wire Wire Line
+	8350 4100 8200 4100
+Connection ~ 8200 4100
+Wire Wire Line
+	8200 4100 8200 4000
+Text GLabel 8300 2500 0    50   Input ~ 0
+Servo_4
+$Comp
+L power:+5V #PWR0119
+U 1 1 600543C1
+P 7900 2600
+F 0 "#PWR0119" H 7900 2450 50  0001 C CNN
+F 1 "+5V" H 7915 2773 50  0000 C CNN
+F 2 "" H 7900 2600 50  0001 C CNN
+F 3 "" H 7900 2600 50  0001 C CNN
+	1    7900 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0120
+U 1 1 6009CE9F
+P 8200 3600
+F 0 "#PWR0120" H 8200 3450 50  0001 C CNN
+F 1 "+5V" H 8215 3773 50  0000 C CNN
+F 2 "" H 8200 3600 50  0001 C CNN
+F 3 "" H 8200 3600 50  0001 C CNN
+	1    8200 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 3600 8350 3600
+Wire Wire Line
+	8350 3700 8200 3700
+Wire Wire Line
+	8200 3700 8200 3600
+Connection ~ 8200 3600
+Text GLabel 8350 3800 0    50   Input ~ 0
+SDA
+Text GLabel 8350 3900 0    50   Input ~ 0
+SCL
+$Comp
+L Connector:Conn_01x03_Female J2
+U 1 1 600D159D
+P 8500 1600
+F 0 "J2" H 8528 1626 50  0000 L CNN
+F 1 "Servo_Header" H 8528 1535 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8500 1600 50  0001 C CNN
+F 3 "~" H 8500 1600 50  0001 C CNN
+	1    8500 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J3
+U 1 1 600D1A8E
+P 8500 2100
+F 0 "J3" H 8528 2126 50  0000 L CNN
+F 1 "Servo_Header" H 8528 2035 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8500 2100 50  0001 C CNN
+F 3 "~" H 8500 2100 50  0001 C CNN
+	1    8500 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J4
+U 1 1 600D1FC2
+P 8500 2600
+F 0 "J4" H 8528 2626 50  0000 L CNN
+F 1 "Servo_Header" H 8528 2535 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8500 2600 50  0001 C CNN
+F 3 "~" H 8500 2600 50  0001 C CNN
+	1    8500 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J6
+U 1 1 600D25F2
+P 9850 1050
+F 0 "J6" H 9878 1076 50  0000 L CNN
+F 1 "Servo_Header" H 9878 985 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9850 1050 50  0001 C CNN
+F 3 "~" H 9850 1050 50  0001 C CNN
+	1    9850 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J7
+U 1 1 600D2CDC
+P 9850 1600
+F 0 "J7" H 9878 1626 50  0000 L CNN
+F 1 "Servo_Header" H 9878 1535 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9850 1600 50  0001 C CNN
+F 3 "~" H 9850 1600 50  0001 C CNN
+	1    9850 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J8
+U 1 1 600D33C8
+P 9850 2100
+F 0 "J8" H 9878 2126 50  0000 L CNN
+F 1 "Servo_Header" H 9878 2035 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9850 2100 50  0001 C CNN
+F 3 "~" H 9850 2100 50  0001 C CNN
+	1    9850 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J9
+U 1 1 600D3CAB
+P 9850 2600
+F 0 "J9" H 9878 2626 50  0000 L CNN
+F 1 "Servo_Header" H 9878 2535 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9850 2600 50  0001 C CNN
+F 3 "~" H 9850 2600 50  0001 C CNN
+	1    9850 2600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
