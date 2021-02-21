@@ -1,0 +1,182 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 7450 7500 0    50   ~ 0
+LM2596 5V Regulator
+Text Notes 8150 7650 0    50   ~ 0
+1/26/21\n
+Text Notes 10550 7650 0    50   ~ 0
+1
+$Comp
+L Device:C_Small C?
+U 1 1 6010B802
+P 4750 3350
+F 0 "C?" H 4842 3396 50  0000 L CNN
+F 1 "680uF" H 4842 3305 50  0000 L CNN
+F 2 "" H 4750 3350 50  0001 C CNN
+F 3 "~" H 4750 3350 50  0001 C CNN
+	1    4750 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6010E1CF
+P 7150 3600
+F 0 "C?" H 7242 3646 50  0000 L CNN
+F 1 "220uF" H 7242 3555 50  0000 L CNN
+F 2 "" H 7150 3600 50  0001 C CNN
+F 3 "~" H 7150 3600 50  0001 C CNN
+	1    7150 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60111C7C
+P 5700 3700
+F 0 "#PWR?" H 5700 3450 50  0001 C CNN
+F 1 "GND" H 5705 3527 50  0000 C CNN
+F 2 "" H 5700 3700 50  0001 C CNN
+F 3 "" H 5700 3700 50  0001 C CNN
+	1    5700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6011357C
+P 5200 3550
+F 0 "#PWR?" H 5200 3300 50  0001 C CNN
+F 1 "GND" H 5205 3377 50  0000 C CNN
+F 2 "" H 5200 3550 50  0001 C CNN
+F 3 "" H 5200 3550 50  0001 C CNN
+	1    5200 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 3700 5700 3650
+Wire Wire Line
+	5200 3550 5200 3450
+Wire Wire Line
+	5200 3250 4750 3250
+$Comp
+L pspice:INDUCTOR L?
+U 1 1 6010D2BF
+P 6750 3450
+F 0 "L?" H 6750 3665 50  0000 C CNN
+F 1 "33uH" H 6750 3400 50  0000 C CNN
+F 2 "" H 6750 3450 50  0001 C CNN
+F 3 "~" H 6750 3450 50  0001 C CNN
+	1    6750 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 3500 7150 3450
+Wire Wire Line
+	7150 3450 7000 3450
+Wire Wire Line
+	6200 3250 7150 3250
+Wire Wire Line
+	7150 3250 7150 3450
+Connection ~ 7150 3450
+$Comp
+L power:GND #PWR?
+U 1 1 60117D82
+P 4750 3450
+F 0 "#PWR?" H 4750 3200 50  0001 C CNN
+F 1 "GND" H 4755 3277 50  0000 C CNN
+F 2 "" H 4750 3450 50  0001 C CNN
+F 3 "" H 4750 3450 50  0001 C CNN
+	1    4750 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60118308
+P 7150 3700
+F 0 "#PWR?" H 7150 3450 50  0001 C CNN
+F 1 "GND" H 7155 3527 50  0000 C CNN
+F 2 "" H 7150 3700 50  0001 C CNN
+F 3 "" H 7150 3700 50  0001 C CNN
+	1    7150 3700
+	1    0    0    -1  
+$EndComp
+Text Notes 4400 2900 0    50   ~ 0
+Max Supply Voltage: 45V\nEfficiency: 80% @ 12Vin 3A load\nSwitching Freq: 150kHz
+Text Notes 4550 4250 0    50   ~ 0
+Vo=D*Vs\n\ndVc  = (T*dIL)/(8*C)\n\ndIL = VL*dt/L = (Vo*(1-D)T)/L
+Text Notes 6050 4200 0    50   ~ 0
+dIL = 897.9mA\ndVc=3.4mV\n
+$Comp
+L power:+5V #PWR?
+U 1 1 60124E9A
+P 7150 3250
+F 0 "#PWR?" H 7150 3100 50  0001 C CNN
+F 1 "+5V" H 7165 3423 50  0000 C CNN
+F 2 "" H 7150 3250 50  0001 C CNN
+F 3 "" H 7150 3250 50  0001 C CNN
+	1    7150 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 7150 3250
+$Comp
+L power:VDC #PWR?
+U 1 1 601255F5
+P 4750 3250
+F 0 "#PWR?" H 4750 3150 50  0001 C CNN
+F 1 "VDC" H 4750 3525 50  0000 C CNN
+F 2 "" H 4750 3250 50  0001 C CNN
+F 3 "" H 4750 3250 50  0001 C CNN
+	1    4750 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 4750 3250
+$Comp
+L Regulator_Switching:LM2596S-5 U?
+U 1 1 6010BAAA
+P 5700 3350
+F 0 "U?" H 5700 3717 50  0000 C CNN
+F 1 "LM2596S-5" H 5700 3626 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 5750 3100 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2596.pdf" H 5700 3350 50  0001 C CNN
+	1    5700 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 3450 6350 3450
+$Comp
+L Diode:1N5821 D?
+U 1 1 6010E7E4
+P 6350 3600
+F 0 "D?" V 6304 3679 50  0000 L CNN
+F 1 "1N5821" V 6395 3679 50  0000 L CNN
+F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 6350 3425 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88526/1n5820.pdf" H 6350 3600 50  0001 C CNN
+	1    6350 3600
+	0    1    1    0   
+$EndComp
+Connection ~ 6350 3450
+Wire Wire Line
+	6350 3450 6500 3450
+$Comp
+L power:GND #PWR?
+U 1 1 60110412
+P 6350 3750
+F 0 "#PWR?" H 6350 3500 50  0001 C CNN
+F 1 "GND" H 6355 3577 50  0000 C CNN
+F 2 "" H 6350 3750 50  0001 C CNN
+F 3 "" H 6350 3750 50  0001 C CNN
+	1    6350 3750
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

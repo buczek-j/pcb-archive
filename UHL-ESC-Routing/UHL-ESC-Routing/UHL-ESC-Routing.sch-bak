@@ -1,0 +1,209 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 7350 7500 0    50   ~ 0
+uhl esc routing
+Text Notes 10600 7650 0    50   ~ 0
+1
+Text Notes 8150 7650 0    50   ~ 0
+1/31/21
+$Comp
+L Connector:Conn_01x03_Female J1
+U 1 1 60170B23
+P 2900 1050
+F 0 "J1" H 2928 1076 50  0000 L CNN
+F 1 "MR60" H 2928 985 50  0000 L CNN
+F 2 "Custom Footprints:MR60" H 2900 1050 50  0001 C CNN
+F 3 "~" H 2900 1050 50  0001 C CNN
+	1    2900 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J3
+U 1 1 601767FC
+P 2400 1250
+F 0 "J3" H 2428 1226 50  0000 L CNN
+F 1 "APD 120F3" H 2428 1135 50  0000 L CNN
+F 2 "Custom Footprints:APD-ESC" H 2400 1250 50  0001 C CNN
+F 3 "~" H 2400 1250 50  0001 C CNN
+	1    2400 1250
+	1    0    0    -1  
+$EndComp
+Text GLabel 2050 1600 3    50   Input ~ 0
+telem
+Wire Wire Line
+	2050 1600 2050 1550
+Wire Wire Line
+	2050 1550 2200 1550
+Text GLabel 2200 1750 3    50   Input ~ 0
+PWM1
+Text GLabel 1900 1750 3    50   Input ~ 0
+GND1
+Wire Wire Line
+	2200 1650 2200 1750
+Wire Wire Line
+	1900 1750 1900 1600
+Wire Wire Line
+	1900 1600 2000 1600
+Wire Wire Line
+	2000 1600 2000 1450
+Wire Wire Line
+	2000 1450 2200 1450
+Wire Wire Line
+	2700 950  2200 950 
+Wire Wire Line
+	2700 1050 2200 1050
+Wire Wire Line
+	2700 1150 2200 1150
+$Comp
+L Connector:Conn_01x03_Female J5
+U 1 1 6019B325
+P 2900 2250
+F 0 "J5" H 2928 2276 50  0000 L CNN
+F 1 "MR60" H 2928 2185 50  0000 L CNN
+F 2 "Custom Footprints:MR60" H 2900 2250 50  0001 C CNN
+F 3 "~" H 2900 2250 50  0001 C CNN
+	1    2900 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J2
+U 1 1 6019B32B
+P 2400 2450
+F 0 "J2" H 2428 2426 50  0000 L CNN
+F 1 "APD 120F3" H 2428 2335 50  0000 L CNN
+F 2 "Custom Footprints:APD-ESC" H 2400 2450 50  0001 C CNN
+F 3 "~" H 2400 2450 50  0001 C CNN
+	1    2400 2450
+	1    0    0    -1  
+$EndComp
+Text GLabel 2050 2800 3    50   Input ~ 0
+telem
+Wire Wire Line
+	2050 2800 2050 2750
+Wire Wire Line
+	2050 2750 2200 2750
+Text GLabel 2200 2950 3    50   Input ~ 0
+PWM2
+Text GLabel 1900 2950 3    50   Input ~ 0
+GND2
+Wire Wire Line
+	2200 2850 2200 2950
+Wire Wire Line
+	1900 2950 1900 2800
+Wire Wire Line
+	1900 2800 2000 2800
+Wire Wire Line
+	2000 2800 2000 2650
+Wire Wire Line
+	2000 2650 2200 2650
+Wire Wire Line
+	2700 2150 2200 2150
+Wire Wire Line
+	2700 2250 2200 2250
+Wire Wire Line
+	2700 2350 2200 2350
+$Comp
+L Connector:Conn_01x03_Female J6
+U 1 1 6019D039
+P 2900 3500
+F 0 "J6" H 2928 3526 50  0000 L CNN
+F 1 "MR60" H 2928 3435 50  0000 L CNN
+F 2 "Custom Footprints:MR60" H 2900 3500 50  0001 C CNN
+F 3 "~" H 2900 3500 50  0001 C CNN
+	1    2900 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J4
+U 1 1 6019D03F
+P 2400 3700
+F 0 "J4" H 2428 3676 50  0000 L CNN
+F 1 "APD 120F3" H 2428 3585 50  0000 L CNN
+F 2 "Custom Footprints:APD-ESC" H 2400 3700 50  0001 C CNN
+F 3 "~" H 2400 3700 50  0001 C CNN
+	1    2400 3700
+	1    0    0    -1  
+$EndComp
+Text GLabel 2050 4050 3    50   Input ~ 0
+telem
+Wire Wire Line
+	2050 4050 2050 4000
+Wire Wire Line
+	2050 4000 2200 4000
+Text GLabel 2200 4200 3    50   Input ~ 0
+PWM3
+Text GLabel 1900 4200 3    50   Input ~ 0
+GND3
+Wire Wire Line
+	2200 4100 2200 4200
+Wire Wire Line
+	1900 4200 1900 4050
+Wire Wire Line
+	1900 4050 2000 4050
+Wire Wire Line
+	2000 4050 2000 3900
+Wire Wire Line
+	2000 3900 2200 3900
+Wire Wire Line
+	2700 3400 2200 3400
+Wire Wire Line
+	2700 3500 2200 3500
+Wire Wire Line
+	2700 3600 2200 3600
+$Comp
+L Connector:Conn_01x04_Female J?
+U 1 1 602E5806
+P 3950 1600
+F 0 "J?" H 3978 1576 50  0000 L CNN
+F 1 "jst1" H 3978 1485 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3950 1600 50  0001 C CNN
+F 3 "~" H 3950 1600 50  0001 C CNN
+	1    3950 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J?
+U 1 1 602E9108
+P 3950 2050
+F 0 "J?" H 3978 2026 50  0000 L CNN
+F 1 "jst2" H 3978 1935 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3950 2050 50  0001 C CNN
+F 3 "~" H 3950 2050 50  0001 C CNN
+	1    3950 2050
+	1    0    0    -1  
+$EndComp
+Text GLabel 3750 2250 0    50   Input ~ 0
+GND1
+Text GLabel 3750 2150 0    50   Input ~ 0
+GND2
+Text GLabel 3750 2050 0    50   Input ~ 0
+GND3
+Text GLabel 3750 1800 0    50   Input ~ 0
+PWM1
+Text GLabel 3750 1500 0    50   Input ~ 0
+telem
+Text GLabel 3750 1700 0    50   Input ~ 0
+PWM2
+Text GLabel 3750 1600 0    50   Input ~ 0
+PWM3
+NoConn ~ 3750 1950
+NoConn ~ 2200 1250
+NoConn ~ 2200 1350
+NoConn ~ 2200 2450
+NoConn ~ 2200 2550
+NoConn ~ 2200 3700
+NoConn ~ 2200 3800
+$EndSCHEMATC
